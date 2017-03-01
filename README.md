@@ -1,4 +1,4 @@
-# generator-rice
+# generator-ricejs
 
 ## Installation
 
