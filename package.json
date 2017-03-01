@@ -1,6 +1,6 @@
 {
   "name": "generator-ricejs",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "author": {
     "name": "Philippe Assis",
     "email": "assis@philippeassis.com"
@@ -40,7 +40,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/PhilippeAssis/generator-rice.git"
+    "url": "git+https://github.com/PhilippeAssis/generator-rices.git"
   },
   "scripts": {
     "prepublish": "gulp prepublish",
