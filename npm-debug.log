@@ -15,31 +15,31 @@
 7 silly cache add   rawSpec: '.',
 7 silly cache add   spec: '/home/ubuntu/workspace/generator-ricejs',
 7 silly cache add   type: 'directory' }
-8 verbose addLocalDirectory /home/ubuntu/.npm/generator-ricejs/0.1.0/package.tgz not in flight; packing
+8 verbose addLocalDirectory /home/ubuntu/.npm/generator-ricejs/0.2.0/package.tgz not in flight; packing
 9 verbose correctMkdir /home/ubuntu/.npm correctMkdir not in flight; initializing
 10 warn prepublish-on-install As of npm@5, `prepublish` scripts will run only for `npm publish`.
 11 warn prepublish-on-install (In npm@4 and previous versions, it also runs for `npm install`.)
 12 warn prepublish-on-install See the deprecation note in `npm help scripts` for more information.
-13 info lifecycle generator-ricejs@0.1.0~prepublish: generator-ricejs@0.1.0
-14 verbose lifecycle generator-ricejs@0.1.0~prepublish: unsafe-perm in lifecycle true
-15 verbose lifecycle generator-ricejs@0.1.0~prepublish: PATH: /home/ubuntu/.nvm/versions/node/v7.6.0/lib/node_modules/npm/bin/node-gyp-bin:/home/ubuntu/workspace/generator-ricejs/node_modules/.bin:/home/ubuntu/.nvm/versions/node/v7.6.0/bin:/usr/local/rvm/gems/ruby-2.3.0/bin:/usr/local/rvm/gems/ruby-2.3.0@global/bin:/usr/local/rvm/rubies/ruby-2.3.0/bin:/mnt/shared/bin:/home/ubuntu/workspace/node_modules/.bin:/home/ubuntu/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/mnt/shared/sbin:/opt/gitl:/opt/go/bin:/mnt/shared/c9/app.nw/bin:/usr/local/rvm/bin
-16 verbose lifecycle generator-ricejs@0.1.0~prepublish: CWD: /home/ubuntu/workspace/generator-ricejs
-17 silly lifecycle generator-ricejs@0.1.0~prepublish: Args: [ '-c', 'gulp prepublish' ]
-18 silly lifecycle generator-ricejs@0.1.0~prepublish: Returned: code: 0  signal: null
-19 info lifecycle generator-ricejs@0.1.0~prepare: generator-ricejs@0.1.0
-20 silly lifecycle generator-ricejs@0.1.0~prepare: no script for prepare, continuing
-21 verbose tar pack [ '/home/ubuntu/.npm/generator-ricejs/0.1.0/package.tgz',
+13 info lifecycle generator-ricejs@0.2.0~prepublish: generator-ricejs@0.2.0
+14 verbose lifecycle generator-ricejs@0.2.0~prepublish: unsafe-perm in lifecycle true
+15 verbose lifecycle generator-ricejs@0.2.0~prepublish: PATH: /home/ubuntu/.nvm/versions/node/v7.6.0/lib/node_modules/npm/bin/node-gyp-bin:/home/ubuntu/workspace/generator-ricejs/node_modules/.bin:/home/ubuntu/.nvm/versions/node/v7.6.0/bin:/usr/local/rvm/gems/ruby-2.3.0/bin:/usr/local/rvm/gems/ruby-2.3.0@global/bin:/usr/local/rvm/rubies/ruby-2.3.0/bin:/mnt/shared/bin:/home/ubuntu/workspace/node_modules/.bin:/home/ubuntu/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/mnt/shared/sbin:/opt/gitl:/opt/go/bin:/mnt/shared/c9/app.nw/bin:/usr/local/rvm/bin
+16 verbose lifecycle generator-ricejs@0.2.0~prepublish: CWD: /home/ubuntu/workspace/generator-ricejs
+17 silly lifecycle generator-ricejs@0.2.0~prepublish: Args: [ '-c', 'gulp prepublish' ]
+18 silly lifecycle generator-ricejs@0.2.0~prepublish: Returned: code: 0  signal: null
+19 info lifecycle generator-ricejs@0.2.0~prepare: generator-ricejs@0.2.0
+20 silly lifecycle generator-ricejs@0.2.0~prepare: no script for prepare, continuing
+21 verbose tar pack [ '/home/ubuntu/.npm/generator-ricejs/0.2.0/package.tgz',
 21 verbose tar pack   '/home/ubuntu/workspace/generator-ricejs' ]
-22 verbose tarball /home/ubuntu/.npm/generator-ricejs/0.1.0/package.tgz
+22 verbose tarball /home/ubuntu/.npm/generator-ricejs/0.2.0/package.tgz
 23 verbose folder /home/ubuntu/workspace/generator-ricejs
-24 verbose addLocalTarball adding from inside cache /home/ubuntu/.npm/generator-ricejs/0.1.0/package.tgz
+24 verbose addLocalTarball adding from inside cache /home/ubuntu/.npm/generator-ricejs/0.2.0/package.tgz
 25 verbose correctMkdir /home/ubuntu/.npm correctMkdir not in flight; initializing
-26 silly cache afterAdd generator-ricejs@0.1.0
-27 verbose afterAdd /home/ubuntu/.npm/generator-ricejs/0.1.0/package/package.json not in flight; writing
+26 silly cache afterAdd generator-ricejs@0.2.0
+27 verbose afterAdd /home/ubuntu/.npm/generator-ricejs/0.2.0/package/package.json not in flight; writing
 28 verbose correctMkdir /home/ubuntu/.npm correctMkdir not in flight; initializing
-29 verbose afterAdd /home/ubuntu/.npm/generator-ricejs/0.1.0/package/package.json written
+29 verbose afterAdd /home/ubuntu/.npm/generator-ricejs/0.2.0/package/package.json written
 30 silly publish { name: 'generator-ricejs',
-30 silly publish   version: '0.1.0',
+30 silly publish   version: '0.2.0',
 30 silly publish   author: { name: 'Philippe Assis', email: 'assis@philippeassis.com' },
 30 silly publish   files: [ 'generators' ],
 30 silly publish   main: 'generators/index.js',
@@ -65,20 +65,20 @@
 30 silly publish   eslintConfig: { extends: 'xo-space', env: { mocha: true } },
 30 silly publish   repository:
 30 silly publish    { type: 'git',
-30 silly publish      url: 'git+https://github.com/PhilippeAssis/generator-rice.git' },
+30 silly publish      url: 'git+https://github.com/PhilippeAssis/generator-rices.git' },
 30 silly publish   scripts: { prepublish: 'gulp prepublish', test: 'gulp' },
 30 silly publish   license: 'Apache-2.0',
 30 silly publish   readme: '# generator-rice\n\n## Installation\n\nFirst, install [Yeoman](http://yeoman.io) and generator-rice using [npm](https://www.npmjs.com/) (we assume you have pre-installed [node.js](https://nodejs.org/)).\n\n```bash\nnpm install -g yo\nnpm install -g generator-rice\n```\n\nThen generate your new project:\n\n```bash\nyo rice\n```\n\n## Getting To Know Yeoman\n\n * Yeoman has a heart of gold.\n * Yeoman is a person with feelings and opinions, but is very easy to work with.\n * Yeoman can be too opinionated at times but is easily convinced not to be.\n * Feel free to [learn more about Yeoman](http://yeoman.io/).\n\n## License\n\nApache-2.0 © [Philippe Assis]()\n\n\n[npm-image]: https://badge.fury.io/js/generator-rice.svg\n[npm-url]: https://npmjs.org/package/generator-rice\n[travis-image]: https://travis-ci.org//generator-rice.svg?branch=master\n[travis-url]: https://travis-ci.org//generator-rice\n[daviddm-image]: https://david-dm.org//generator-rice.svg?theme=shields.io\n[daviddm-url]: https://david-dm.org//generator-rice\n[coveralls-image]: https://coveralls.io/repos//generator-rice/badge.svg\n[coveralls-url]: https://coveralls.io/r//generator-rice\n',
 30 silly publish   readmeFilename: 'README.md',
-30 silly publish   gitHead: 'b3ca4b28015bfa8a2b70674a3935ba4df30d549f',
+30 silly publish   gitHead: 'b7406578a26ad3ac10e496330a409e4d74ae6b5d',
 30 silly publish   description: '## Installation',
-30 silly publish   bugs: { url: 'https://github.com/PhilippeAssis/generator-rice/issues' },
-30 silly publish   homepage: 'https://github.com/PhilippeAssis/generator-rice#readme',
-30 silly publish   _id: 'generator-ricejs@0.1.0',
-30 silly publish   _shasum: '0f5bfb4c0dd632668555484825845cacf82bdb8f',
+30 silly publish   bugs: { url: 'https://github.com/PhilippeAssis/generator-rices/issues' },
+30 silly publish   homepage: 'https://github.com/PhilippeAssis/generator-rices#readme',
+30 silly publish   _id: 'generator-ricejs@0.2.0',
+30 silly publish   _shasum: '06d9c27bd790fea775fa6c1c39897a7c49c096cb',
 30 silly publish   _from: '.' }
-31 info lifecycle generator-ricejs@0.1.0~prepublishOnly: generator-ricejs@0.1.0
-32 silly lifecycle generator-ricejs@0.1.0~prepublishOnly: no script for prepublishOnly, continuing
+31 info lifecycle generator-ricejs@0.2.0~prepublishOnly: generator-ricejs@0.2.0
+32 silly lifecycle generator-ricejs@0.2.0~prepublishOnly: no script for prepublishOnly, continuing
 33 verbose getPublishConfig undefined
 34 silly mapToRegistry name generator-ricejs
 35 silly mapToRegistry using default registry
@@ -93,29 +93,29 @@
 37 silly mapToRegistry   type: 'tag' }
 38 silly mapToRegistry uri https://registry.npmjs.org/generator-ricejs
 39 verbose publish registryBase https://registry.npmjs.org/
-40 silly publish uploading /home/ubuntu/.npm/generator-ricejs/0.1.0/package.tgz
+40 silly publish uploading /home/ubuntu/.npm/generator-ricejs/0.2.0/package.tgz
 41 verbose request uri https://registry.npmjs.org/generator-ricejs
 42 verbose request sending authorization for write operation
-43 info attempt registry request try #1 at 8:03:42 PM
+43 info attempt registry request try #1 at 8:06:20 PM
 44 verbose request using bearer token for auth
-45 verbose request id 4d4163d28822178f
+45 verbose request id 05eb3f7ea5ee4ea0
 46 http request PUT https://registry.npmjs.org/generator-ricejs
 47 http 403 https://registry.npmjs.org/generator-ricejs
 48 verbose headers { 'content-type': 'application/json',
 48 verbose headers   'cache-control': 'max-age=300',
 48 verbose headers   'content-length': '95',
 48 verbose headers   'accept-ranges': 'bytes',
-48 verbose headers   date: 'Wed, 01 Mar 2017 20:03:43 GMT',
+48 verbose headers   date: 'Wed, 01 Mar 2017 20:06:21 GMT',
 48 verbose headers   via: '1.1 varnish',
 48 verbose headers   connection: 'keep-alive',
-48 verbose headers   'x-served-by': 'cache-ord1733-ORD',
+48 verbose headers   'x-served-by': 'cache-ord1724-ORD',
 48 verbose headers   'x-cache': 'MISS',
 48 verbose headers   'x-cache-hits': '0',
-48 verbose headers   'x-timer': 'S1488398622.564522,VS0,VE615',
+48 verbose headers   'x-timer': 'S1488398780.905325,VS0,VE570',
 48 verbose headers   vary: 'Accept-Encoding' }
 49 verbose request invalidating /home/ubuntu/.npm/registry.npmjs.org/generator-ricejs on PUT
 50 error publish Failed PUT 403
-51 verbose stack Error: "You cannot publish over the previously published version 0.1.0." : generator-ricejs
+51 verbose stack Error: "You cannot publish over the previously published version 0.2.0." : generator-ricejs
 51 verbose stack     at makeError (/home/ubuntu/.nvm/versions/node/v7.6.0/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:304:12)
 51 verbose stack     at CachingRegistryClient.<anonymous> (/home/ubuntu/.nvm/versions/node/v7.6.0/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:292:14)
 51 verbose stack     at Request._callback (/home/ubuntu/.nvm/versions/node/v7.6.0/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:212:14)
@@ -134,7 +134,7 @@
 57 error node v7.6.0
 58 error npm  v4.1.2
 59 error code E403
-60 error "You cannot publish over the previously published version 0.1.0." : generator-ricejs
+60 error "You cannot publish over the previously published version 0.2.0." : generator-ricejs
 61 error If you need help, you may report this error at:
 61 error     <https://github.com/npm/npm/issues>
 62 verbose exit [ 1, true ]
