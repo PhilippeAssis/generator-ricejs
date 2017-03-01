@@ -6,13 +6,13 @@ First, install [Yeoman](http://yeoman.io) and generator-rice using [npm](https:/
 
 ```bash
 npm install -g yo
-npm install -g generator-rice
+npm install -g generator-ricejs
 ```
 
 Then generate your new project:
 
 ```bash
-yo rice
+yo ricejs
 ```
 
 ## Getting To Know Yeoman
